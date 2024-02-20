@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    text-align: center;
+}
+
+table.womp {
+    padding: 10px;
+    border-top: 0;
+    margin: 10px;
+    width: 200px;
+    border-collapse: collapse;
+}
+
+table.womp th {
+    text-align: center;
+}
+
+table.womp td {
+    background-color: #eeeeee;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.rectangulo {
+    background-color: #678dd7;
+    margin-left: -35%;
+    margin-right: -35%;
+    margin-top: -2%;
+    height: 60px;
+}
