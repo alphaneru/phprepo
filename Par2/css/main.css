@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+:root {
+    --light-blue: #94d9f8;
+    --dark-blue: #4a5ba0;
+}
+
+* {
+    font-family: Outfit, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.menu {
+    text-align: center;
+}
+
+.lista {
+    display: inline-block;
+    list-style-type: cjk-ideographic;
+    text-decoration: none;
+}
+.lista a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.lista a:hover {
+    color: var(--light-blue);
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}

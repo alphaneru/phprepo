@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+:root {
+    --light-blue: #94d9f8;
+    --dark-blue: #4a5ba0;
+}
+
+* {
+    font-family: Outfit, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    padding-left: 7%;
+}
+
+.header a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.header a:hover {
+    color: var(--light-blue);
+    transition: all 0.3s ease;
+}
+
+.inicio {
+    left: 2rem;
+}
+
+.inicio img {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    left: 2rem;
+    gap: 1rem;
+    margin-top: 0.45rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    max-width: 73%;
+}
+
+.container p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.formulario input {
+    background-color: #333;
+    border: none;
+    border-radius: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.entrada {
+    font-size: 1.3rem;
+}
+
+.boton {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
